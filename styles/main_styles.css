@@ -298,6 +298,8 @@ section
 }
 .button_2
 {
+	padding-left: 4px;
+	padding-right: 4px;
 	background: transparent;
 	border: solid 2px #57ccc3;
 }
@@ -311,7 +313,7 @@ section
 }
 .button_2:hover a
 {
-	color: #FFFFFF;
+	/* color: #FFFFFF; */
 }
 .section_subtitle
 {
@@ -1192,7 +1194,7 @@ section
 }
 .footer_content
 {
-	padding-top: 94px;
+	padding-top: 14px;
 	padding-bottom: 51px;
 }
 .footer_about
@@ -1221,7 +1223,7 @@ section
 }
 .footer_about_text
 {
-	margin-top: 42px;
+	margin-top: 12px;
 }
 .footer_about_text p
 {
@@ -1236,11 +1238,11 @@ section
 }
 .footer_contact
 {
-	padding-top: 40px;
+	padding-top: 10px;
 }
 .contact_list
 {
-	margin-top: 44px;
+	margin-top: 14px;
 }
 .contact_list li
 {
@@ -1254,12 +1256,12 @@ section
 }
 .footer_location
 {
-	padding-top: 40px;
+	padding-top: 14px;
 }
 .locations_list
 {
 	max-width: 180px;
-	margin-top: 42px;
+	margin-top: 12px;
 }
 .locations_list li
 {
@@ -1471,13 +1473,13 @@ main {
   
   .swiper-slide-action {
 	justify-content: space-between;
-	margin-top: 100%;
+	margin-top: 200%;
   }
   .swiper-slide a {
 	/* background: white; */
 	/* border: solid 2px #57ccc3; */
 	color: #57ccc3;
-	margin-right: 0.5rem;
+	/* margin-right: 0.5rem; */
 	padding: 0.438em 2.075rem;
   }
 
