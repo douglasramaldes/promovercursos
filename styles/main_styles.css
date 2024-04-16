@@ -298,8 +298,8 @@ section
 }
 .button_2
 {
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 4px;
+	padding-right: 4px;
 	background: transparent;
 	border: solid 2px #57ccc3;
 }
@@ -313,7 +313,7 @@ section
 }
 .button_2:hover a
 {
-	color: #FFFFFF;
+	/* color: #FFFFFF; */
 }
 .section_subtitle
 {
