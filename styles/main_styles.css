@@ -1535,7 +1535,11 @@ color: #57ccc3;
   .swiper-3d .swiper-slide-shadow-right {
 	background-image: none;
   }
-  
+
+#special-button {
+	color: #57ccc3;
+}
+
   @media screen and (min-width: 48rem) {
 	main {
 	  display: flex;
