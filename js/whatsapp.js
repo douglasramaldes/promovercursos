@@ -1,14 +1,20 @@
-document
-  .getElementById("whatsapp-form")
-  .addEventListener("submit", function (event) {
-    event.preventDefault();
+function sendMessage() {
+  const name = document.getElementById("name").value.trim();
+  const message = document.getElementById("message").value.trim();
 
-    var name = document.getElementById("name").value.trim();
-    var message = document.getElementById("message").value.trim();
+  if (!name) {
+    document.getElementById("name").focus();
+    return;
+  }
 
-    var whatsappUrl = `https://wa.me/5521971422068?text=${encodeURIComponent(
-      "Olá me chamo " + name + " e minha dúvida é: " + message
-    )}`;
+  if (!message) {
+    document.getElementById("message").focus();
+    return;
+  }
 
-    window.open(whatsappUrl, "_blank");
-  });
+  var whatsappUrl = `https://wa.me/5521971422068?text=${encodeURIComponent(
+    "Olá me chamo " + name + " e minha dúvida é: " + message
+  )}`;
+
+  window.open(whatsappUrl, "_blank");
+}
