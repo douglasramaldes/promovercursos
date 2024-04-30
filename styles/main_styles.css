@@ -26,6 +26,7 @@
 ***********/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800');
 
 /*********************************
 2. Body and some general stuff
@@ -41,7 +42,7 @@
 }
 body
 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -62,7 +63,7 @@ ul
 }
 p
 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 2.14;
 	font-weight: 500;
@@ -132,7 +133,7 @@ h4{font-size: 24px;}
 h5{font-size: 18px;}
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -301,15 +302,15 @@ section
 	padding-left: 4px;
 	padding-right: 4px;
 	background: transparent;
-	border: solid 2px #57ccc3;
+	border: solid 2px #07beb8;
 }
 .button_2 a
 {
-	color: #57ccc3;
+	color: #07beb8;
 }
 .button_2:hover
 {
-	background: #57ccc3;
+	background: #07beb8;
 }
 .button_2:hover a
 {
@@ -365,7 +366,7 @@ section
 }
 .logo a > div:first-child span
 {
-	color: #57ccc3;
+	color: #07beb8;
 	margin-left: 7px;
 }
 .logo a > div:last-child
@@ -390,7 +391,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #57ccc3;
+	color: #07beb8;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -408,7 +409,7 @@ section
 {
 	height: 46px;
 	border-radius: 20px;
-	background: #57ccc3;
+	background: #07beb8;
 	padding-left: 40px;
 	padding-right: 36px;
 	line-height: 46px;
@@ -439,7 +440,7 @@ section
 }
 .social ul li:hover
 {
-	background: #57ccc3;
+	background: #07beb8;
 }
 .social ul li:hover a i
 {
@@ -504,7 +505,7 @@ section
 	right: -350px;
 	width: 350px;
 	height: 100vh;
-	background: #57ccc3;
+	background: #07beb8;
 	z-index: 102;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -665,7 +666,7 @@ section
 {
 	/* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); */
 	font-size: 40px;
-	color: #57ccc3;
+	color: #07beb8;
 	font-weight: 800;
 	line-height: 1.1;
 }
@@ -710,7 +711,7 @@ section
 .home_slider_custom_dot.active,
 .home_slider_custom_dot:hover
 {
-	background: #57ccc3;
+	background: #07beb8;
 }
 .home_slider_custom_dot:not(:last-child)
 {
@@ -740,7 +741,7 @@ section
 {
 	font-size: 36px;
 	font-weight: 700;
-	color: #57ccc3;
+	color: #07beb8;
 	line-height: 0.75;
 }
 .milestone_text
@@ -768,7 +769,7 @@ section
 	left: 0;
 	width: 336px;
 	height: 80px;
-	background: #57ccc3;
+	background: #07beb8;
 	line-height: 80px;
 	text-align: center;
 	font-size: 24px;
@@ -826,7 +827,7 @@ section
 .intro_input:focus,
 .intro_input:hover
 {
-	border: solid 2px #57ccc3;
+	border: solid 2px #07beb8;
 }
 .intro_input::-webkit-input-placeholder
 {
@@ -911,7 +912,7 @@ section
 	width: 61px;
 	height: 61px;
 	border-radius: 50%;
-	background: #6bdbd2;
+	background: #68d8d6;
 }
 .icon
 {
@@ -965,7 +966,7 @@ section
 .cta
 {
 	width: 100%;
-	background: #57ccc3;
+	background: #07beb8;
 	padding-top: 49px;
 	padding-bottom: 46px;
 }
@@ -1064,7 +1065,7 @@ section
 {
 	font-size: 60px;
 	font-weight: 700;
-	color: #6bdbd2;
+	color: #68d8d6;
 	line-height: 0.75;
 }
 .extra_disc > div:last-child
@@ -1210,7 +1211,7 @@ section
 }
 .footer_logo a > div:first-child span
 {
-	color: #57ccc3;
+	color: #07beb8;
 	margin-left: 7px;
 }
 .footer_logo a > div:last-child
@@ -1275,7 +1276,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 500;
-	color: #57ccc3;
+	color: #07beb8;
 }
 .location_text
 {
@@ -1330,7 +1331,7 @@ section
 }
 .footer_nav ul li a:hover
 {
-	color: #57ccc3;
+	color: #07beb8;
 }
 
 form {
@@ -1431,7 +1432,7 @@ main {
   
   .swiper-pagination-bullet,
   .swiper-pagination-bullet-active {
-	background: #57ccc3;
+	background: #07beb8;
   }
   
   .swiper-pagination {
@@ -1477,15 +1478,15 @@ main {
   }
   .swiper-slide a {
 	/* background: white; */
-	/* border: solid 2px #57ccc3; */
-	color: #57ccc3;
+	/* border: solid 2px #07beb8; */
+	color: #07beb8;
 	/* margin-right: 0.5rem; */
 	padding: 0.438em 2.075rem;
   }
 
   
   .swiper-slide a:hover {
-	background: #57ccc3;
+	background: #07beb8;
 	color: #FFFFFF;
   }
   
@@ -1520,7 +1521,7 @@ main {
   
   .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after ,.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
-color: #57ccc3;
+color: #07beb8;
 }
 
 .swiper-button-prev{
@@ -1537,7 +1538,7 @@ color: #57ccc3;
   }
 
 #special-button {
-	color: #57ccc3;
+	color: #07beb8;
 }
 
   @media screen and (min-width: 48rem) {
