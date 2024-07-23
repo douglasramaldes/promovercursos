@@ -249,6 +249,25 @@ section {
   height: 46px;
   border-radius: 20px;
 }
+
+.button-form {
+  display: flex;
+  justify-content: center;
+  height: 46px;
+  border-radius: 20px;
+}
+
+.button-form a {
+  /* display: block; */
+  /* padding-left: "2%";
+	padding-right: "2%"; */
+  text-align: center;
+  line-height: 42px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 .button a {
   /* display: block; */
   /* padding-left: "2%";
@@ -1453,6 +1472,62 @@ label {
   margin-bottom: 0px;
 }
 
+.modal {
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  height: auto;
+}
+
+.modal-text {
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.loader {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10001;
+  text-align: center;
+}
+
+.blur {
+  filter: blur(5px);
+  pointer-events: none;
+  z-index: 10000;
+  position: relative;
+}
+
+svg path,
+svg rect {
+  fill: #07beb8;
+}
 @media screen and (min-width: 48rem) {
   main {
     display: flex;
@@ -1471,8 +1546,11 @@ label {
 }
 
 @media screen and (max-width: 768px) {
+  .modal-content {
+    width: 90%;
+  }
+
   .background_image {
-    /* transform: scaleX(-1); */
     background-size: cover;
     background-position: 86.666% center;
     opacity: 0.25;
