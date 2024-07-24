@@ -25,6 +25,7 @@
 	<link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
 </head>
 
 <body>
@@ -207,50 +208,36 @@
 							<form id="infoForm" method="POST"
 								action="https://script.google.com/macros/s/AKfycbwhNlZZWVSkO5yyKKqqeCh_3-QwlUIfGur4-pdHKqAAiiqTHfV3TBMhb5DQ8TUEVJGO9g/exec">
 								<label for="Name">Nome:</label>
-								<input type="text" id="name" name="Name" placeholder="Digite seu nome" required>
+								<input class="form-input" type="text" id="name" name="Name"
+									placeholder="Digite seu nome" required>
 
 								<label for="Email">E-mail:</label>
-								<input name="Email" type="email" placeholder="Digite seu e-mail" required>
+								<input class="form-input" name="Email" type="email" placeholder="Digite seu e-mail"
+									required>
 
 								<label for="Phone">Celular:</label>
-								<input name="Phone" type="phone" id="Phone" placeholder="Digite seu celular" required>
+								<input class="form-input" name="Phone" type="phone" id="Phone"
+									placeholder="Digite seu celular" required>
 
 								<label class="gradutation-label" for="Graduation">Qual a sua formação?</label>
-								<div class="select-main-graduate" tabindex="1">
-									<input class="selectopt" name="Graduation" type="radio" id="opt1"
-										value="Biomedicina" checked>
-									<label for="opt1" class="option">Biomedicina</label>
-									<input class="selectopt" name="Graduation" type="radio" id="opt2" value="Biologia">
-									<label for="opt2" class="option">Biologia</label>
-									<input class="selectopt" name="Graduation" type="radio" id="opt3"
-										value="Odontologia">
-									<label for="opt3" class="option">Odontologia</label>
-									<input class="selectopt" name="Graduation" type="radio" id="opt4"
-										value="Enfermagem">
-									<label for="opt4" class="option">Enfermagem</label>
-									<input class="selectopt" name="Graduation" type="radio" id="opt5" value="Farmácia">
-									<label for="opt5" class="option">Farmácia</label>
-									<input class="selectopt" name="Graduation" type="radio" id="opt6"
-										value="Fisioterapia">
-									<label for="opt6" class="option">Fisioterapia</label>
-									<input class="selectopt" name="Graduation" type="radio" id="opt7" value="Medicina">
-									<label for="opt7" class="option">Medicina</label>
-									<input class="selectopt" name="Graduation" type="radio" id="opt8" value="Outros">
-									<label for="opt8" class="option">Outros</label>
-								</div>
+								<select class="form-select" name="Graduation">
+									<option value="Biologia" selected>Biologia</option>
+									<option value="Biomedicina">Biomedicina</option>
+									<option value="Enfermagem">Enfermagem</option>
+									<option value="Farmácia">Farmácia</option>
+									<option value="Fisioterapia">Fisioterapia</option>
+									<option value="Medicina">Medicina</option>
+									<option value="Odontologia">Odontologia</option>
+									<option value="Outros">Outros</option>
+								</select>
 
 								<label class="gradutation-label" for="PostGraduate">Possui pós graduação?</label>
-								<div class="select-main-post-graduate" tabindex="1">
-									<input class="selectopt" name="PostGraduate" type="radio" id="opt-postgraduate1"
-										value="Completa" checked>
-									<label for="opt-postgraduate1" class="option">Completa</label>
-									<input class="selectopt" name="PostGraduate" type="radio" id="opt-postgraduate2"
-										value="Em curso / Incompleta">
-									<label for="opt-postgraduate2" class="option">Em curso / Incompleta</label>
-									<input class="selectopt" name="PostGraduate" type="radio" id="opt-postgraduate3"
-										value="Não possuo">
-									<label for="opt-postgraduate3" class="option">Não possuo</label>
-								</div>
+								<select class="form-select" name="PostGraduate">
+									<option value="Não possuo">Não possuo</option>
+									<option value="Em curso / Incompleta">Em curso / Incompleta</option>
+									<option value="Completa">Completa</option>
+								</select>
+
 								<label for="message">Mensagem:</label>
 								<textarea id="message" name="Message" placeholder="Escreva sua dúvida"
 									required></textarea>
@@ -642,7 +629,6 @@
 	<script src="plugins/parallax-js-master/parallax.min.js"></script>
 	<script src="plugins/jquery-datepicker/jquery-ui.js"></script>
 	<script src="js/custom.js"></script>
-
 
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-19TZT5WEPH"></script>
