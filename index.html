@@ -114,6 +114,17 @@
 			<div class="home_slider_container">
 				<div class="owl-carousel owl-theme home_slider">
 					<!-- Slide -->
+
+
+					<div class="owl-item">
+						<a href="https://bioestheticbrasil.com.br/evento">
+							<div class="background_image_bio">
+							</div>
+
+						</a>
+					</div>
+
+
 					<div class="owl-item">
 						<div class="background_image" style="background-image:url(images/home_slider.jpg)"></div>
 						<div class="home_container">
@@ -137,6 +148,10 @@
 							</div>
 						</div>
 					</div>
+
+
+
+
 				</div>
 			</div>
 		</div>
@@ -641,6 +656,22 @@
 	</script>
 
 	<script>
+		$('.owl-carousel').owlCarousel({
+			loop: true,
+			autoplay: true,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 1
+				},
+				1000: {
+					items: 1
+				}
+			}
+		})
+
 		$(document).ready(function () {
 			$('#Phone').inputmask('(99)99999-9999');
 		});
