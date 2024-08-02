@@ -1507,6 +1507,7 @@ svg rect {
   }
 
   .background_image_bio {
-    background-image: url("../images/bioestheticbrasil.png");
+    background-image: url("../images/bioesthetic.png");
+    /* height: 98%; */
   }
 }
