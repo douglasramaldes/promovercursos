@@ -219,7 +219,7 @@
   }
   .home {
     margin-top: 60px;
-    height: calc(100vh - 220px);
+    height: calc(100vh - 210px);
   }
   .logo a > div:first-child {
     font-size: 24px;
