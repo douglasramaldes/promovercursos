@@ -969,10 +969,10 @@ section {
   vertical-align: super;
 }
 .extra_title {
-  font-size: 62px;
+  font-size: 40px;
   font-weight: 600;
   color: #404040;
-  margin-top: 16px;
+  margin-top: 12px;
   line-height: 1.11;
 }
 .extra_text {
@@ -1346,19 +1346,17 @@ main > div > a {
 }
 
 .swiper-slide--one {
-  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("../images/peim.jpg") no-repeat center/100%;
+  background: url("../images/calendario_setembro_1.jpeg") no-repeat center/90%;
 }
 
 .swiper-slide--two {
-  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url("../images/hidrolipoclasia.jpg") no-repeat center/100%;
+  background: url("../images/calendario_setembro_2.jpeg") no-repeat center/90%;
 }
 
-.swiper-slide--three {
+/* .swiper-slide--three {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
     url("../images/harmonizacaoglutea.jpg") no-repeat center/100%;
-}
+} */
 
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after,
@@ -1510,4 +1508,22 @@ svg rect {
     background-image: url("../images/bioesthetic.png");
     /* height: 98%; */
   }
+}
+
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-float {
+  margin-top:13px;
 }
