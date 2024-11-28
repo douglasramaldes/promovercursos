@@ -1346,12 +1346,12 @@ main > div > a {
 }
 
 .swiper-slide--one {
-  background: url("../images/calendario_setembro_1.jpeg") no-repeat center/90%;
+  background: url("../images/calender_dez.png") no-repeat center/90%;
 }
 
-.swiper-slide--two {
-  background: url("../images/calendario_setembro_2.jpeg") no-repeat center/90%;
-}
+/* .swiper-slide--two {
+  background: url("../images/calender_dez.png") no-repeat center/90%;
+} */
 
 /* .swiper-slide--three {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
