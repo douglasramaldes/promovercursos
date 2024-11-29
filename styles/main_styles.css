@@ -269,9 +269,6 @@ section {
   justify-content: center;
   height: 46px;
   border-radius: 20px;
-}
-
-.button-form a {
   text-align: center;
   line-height: 42px;
   font-size: 14px;
@@ -279,13 +276,6 @@ section {
   font-weight: 600;
 }
 
-.button a {
-  text-align: center;
-  line-height: 42px;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
 .button_1 {
   background: #fd556d;
   border: solid 2px transparent;
@@ -300,21 +290,19 @@ section {
 .button_1:hover a {
   color: #fd556d;
 }
-.button_2 {
+.button_2  {
   padding-left: 4px;
   padding-right: 4px;
   background: transparent;
   border: solid 2px #07beb8;
-}
-.button_2 a {
   color: #07beb8;
+  cursor: pointer;
 }
 .button_2:hover {
   background: #07beb8;
-}
-.button_2:hover a {
   color: #ffffff;
 }
+
 .section_subtitle {
   font-size: 18px;
   font-weight: 500;
@@ -1345,7 +1333,7 @@ main > div > a {
   opacity: 1;
 }
 
-.swiper-slide--one {
+.swiper-slide-one {
   background: url("../images/calender_dez.png") no-repeat center/90%;
 }
 
