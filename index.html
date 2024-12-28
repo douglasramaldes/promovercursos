@@ -174,11 +174,11 @@
           <div class="owl-carousel owl-theme home_slider">
             <!-- Slide -->
 
-            <div class="owl-item">
+            <!-- <div class="owl-item">
               <a href="https://bioestheticbrasil.com.br/evento">
                 <div class="background_image_bio"></div>
               </a>
-            </div>
+            </div> -->
 
             <div class="owl-item">
               <div
@@ -222,193 +222,287 @@
 
       <!-- Intro -->
 
-      <div class="intro">
+      <!-- Agenda -->
+
+      <div class="services">
         <div class="container">
           <div class="row">
-            <!-- Intro Content -->
-            <div class="col-lg-6 intro_col">
-              <div class="intro_content">
-                <div class="section_title_container">
-                  <div class="section_subtitle"><b>Promover</b> Cursos</div>
-                  <div class="section_title">
-                    <h3>Seja bem-vindo ao nosso Instituto</h3>
+            <div class="col text-center">
+              <div class="section_title_container">
+                <div class="section_subtitle"><b>Promover</b> Cursos</div>
+                <div class="section_title">
+                  <h2>Nossa Agenda</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <main>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide-one">
+                  <div class="">
+                    <div class="swiper-slide-action">
+                      <!-- <a
+                      href="https://wa.me/5521971422068?text=Gostaria%20de%20garantir%20minha%20vaga%20no%20curso"
+                      target="_blank"
+                      >Garantir Vaga</a
+                    > -->
+                    </div>
                   </div>
                 </div>
-                <div class="intro_text">
-                  <p>
-                    Em nossas instalações, cada cantinho é um convite à
-                    inspiração e ao aprendizado. <br />As salas de aula são
-                    equipadas para o máximo conforto no aprendizado teórico,
-                    repletas de tecnologia e projetadas para estimular nossos
-                    alunos a alcançarem seu potencial máximo. <br />
-                    A experiência <b>Promover</b> vai além das salas de aula! É
-                    um mergulho em um ambiente que valoriza o conhecimento, o
-                    crescimento pessoal e as conexões humanas. <br />
-                    Venha nos visitar e descubra por que o nosso instituto é tão
-                    especial e como podemos impulsionar sua carreira na estética
-                    avançada.
-                  </p>
+                <div class="swiper-slide swiper-slide-two">
+                  <div class="">
+                    <div class="swiper-slide-action">
+                      <!-- <a
+                      href="https://wa.me/5521971422068?text=Gostaria%20de%20garantir%20minha%20vaga%20no%20curso"
+                      target="_blank"
+                      >Garantir Vaga</a
+                    > -->
+                    </div>
+                  </div>
                 </div>
-                <div class="milestones">
-                  <div class="row milestones_row">
-                    <!-- Milestone -->
-                    <div class="col-md-4 milestone_col">
-                      <div class="milestone">
-                        <div
-                          class="milestone_counter"
-                          data-end-value="4500"
-                          data-sign-before="+"
-                        >
-                          0
-                        </div>
-                        <div class="milestone_text">Alunos satisfeitos</div>
-                      </div>
-                    </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
 
-                    <div class="col-md-4 milestone_col">
-                      <div class="milestone">
-                        <div
-                          class="milestone_counter"
-                          data-end-value="2500"
-                          data-sign-before="+"
-                        >
-                          0
-                        </div>
-                        <div class="milestone_text">Procedimentos</div>
-                      </div>
-                    </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script>
+              var swiper = new Swiper(".swiper", {
+                effect: "coverflow",
+                slideToClickedSlide: true,
+                grabCursor: true,
+                centeredSlides: true,
+                coverflowEffect: {
+                  rotate: 0,
+                  stretch: 0,
+                  depth: 100,
+                  modifier: 3,
+                  slideShadows: true,
+                },
+                keyboard: {
+                  enabled: true,
+                },
+                mousewheel: {
+                  thresholdDelta: 70,
+                },
+                loop: false,
+                pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+                },
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                },
+                breakpoints: {
+                  640: {
+                    slidesPerView: 2,
+                  },
+                  768: {
+                    slidesPerView: 1,
+                  },
+                  1024: {
+                    slidesPerView: 2,
+                  },
+                  1560: {
+                    slidesPerView: 2,
+                  },
+                },
+              });
+            </script>
+          </main>
+        </div>
+      </div>
+    </div>
 
-                    <!-- Milestone -->
-                    <div class="col-md-4 milestone_col">
-                      <div class="milestone">
-                        <div
-                          class="milestone_counter"
-                          data-end-value="30"
-                          data-sign-before="+"
-                        >
-                          0
-                        </div>
-                        <div class="milestone_text">Cursos</div>
+    <div class="intro">
+      <div class="container">
+        <div class="row">
+          <!-- Intro Content -->
+          <div class="col-lg-6 intro_col">
+            <div class="intro_content">
+              <div class="section_title_container">
+                <div class="section_subtitle"><b>Promover</b> Cursos</div>
+                <div class="section_title">
+                  <h3>Bem-vindo ao Instituto Promover</h3>
+                </div>
+              </div>
+              <div class="intro_text">
+                <p>
+                  Em nossas instalações, cada cantinho é um convite à inspiração
+                  e ao aprendizado. <br />As salas de aula são equipadas para o
+                  máximo conforto no aprendizado teórico, repletas de tecnologia
+                  e projetadas para estimular nossos alunos a alcançarem seu
+                  potencial máximo. <br />
+                  A experiência <b>Promover</b> vai além das salas de aula! É um
+                  mergulho em um ambiente que valoriza o conhecimento, o
+                  crescimento pessoal e as conexões humanas. <br />
+                  Venha nos visitar e descubra por que o nosso instituto é tão
+                  especial e como podemos impulsionar sua carreira na estética
+                  avançada.
+                </p>
+              </div>
+              <div class="milestones">
+                <div class="row milestones_row">
+                  <!-- Milestone -->
+                  <div class="col-md-4 milestone_col">
+                    <div class="milestone">
+                      <div
+                        class="milestone_counter"
+                        data-end-value="4500"
+                        data-sign-before="+"
+                      >
+                        0
                       </div>
+                      <div class="milestone_text">Alunos satisfeitos</div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 milestone_col">
+                    <div class="milestone">
+                      <div
+                        class="milestone_counter"
+                        data-end-value="2500"
+                        data-sign-before="+"
+                      >
+                        0
+                      </div>
+                      <div class="milestone_text">Procedimentos</div>
+                    </div>
+                  </div>
+
+                  <!-- Milestone -->
+                  <div class="col-md-4 milestone_col">
+                    <div class="milestone">
+                      <div
+                        class="milestone_counter"
+                        data-end-value="30"
+                        data-sign-before="+"
+                      >
+                        0
+                      </div>
+                      <div class="milestone_text">Cursos</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
 
-            <!-- Intro Form -->
-            <div class="col-lg-6 intro_col">
-              <div class="intro_form_container">
-                <div class="intro_form_title">Quero mais informações.</div>
+          <!-- Intro Form -->
+          <div class="col-lg-6 intro_col">
+            <div class="intro_form_container">
+              <div class="intro_form_title">Quero mais informações.</div>
 
-                <form
-                  id="infoForm"
-                  method="POST"
-                  action="https://script.google.com/macros/s/AKfycbwhNlZZWVSkO5yyKKqqeCh_3-QwlUIfGur4-pdHKqAAiiqTHfV3TBMhb5DQ8TUEVJGO9g/exec"
+              <form
+                id="infoForm"
+                method="POST"
+                action="https://script.google.com/macros/s/AKfycbwhNlZZWVSkO5yyKKqqeCh_3-QwlUIfGur4-pdHKqAAiiqTHfV3TBMhb5DQ8TUEVJGO9g/exec"
+              >
+                <label for="name">Nome:</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  id="name"
+                  name="Name"
+                  placeholder="Digite seu nome"
+                  required
+                />
+
+                <label for="email">E-mail:</label>
+                <input
+                  id="email"
+                  class="form-input"
+                  name="Email"
+                  type="email"
+                  placeholder="Digite seu e-mail"
+                  required
+                />
+
+                <label for="Phone">Celular:</label>
+                <input
+                  class="form-input"
+                  name="Phone"
+                  type="tel"
+                  id="Phone"
+                  placeholder="Digite seu celular"
+                  required
+                />
+
+                <label class="gradutation-label" for="Graduation"
+                  >Qual a sua formação?</label
                 >
-                  <label for="name">Nome:</label>
-                  <input
-                    class="form-input"
-                    type="text"
-                    id="name"
-                    name="Name"
-                    placeholder="Digite seu nome"
-                    required
-                  />
+                <select class="form-select" name="Graduation" id="Graduation">
+                  <option value="Biologia" selected>Biologia</option>
+                  <option value="Biomedicina">Biomedicina</option>
+                  <option value="Enfermagem">Enfermagem</option>
+                  <option value="Farmácia">Farmácia</option>
+                  <option value="Fisioterapia">Fisioterapia</option>
+                  <option value="Medicina">Medicina</option>
+                  <option value="Odontologia">Odontologia</option>
+                  <option value="Outros">Outros</option>
+                </select>
 
-                  <label for="email">E-mail:</label>
-                  <input
-                    id="email"
-                    class="form-input"
-                    name="Email"
-                    type="email"
-                    placeholder="Digite seu e-mail"
-                    required
-                  />
+                <label class="gradutation-label" for="PostGraduate"
+                  >Possui pós graduação?</label
+                >
+                <select
+                  class="form-select"
+                  name="PostGraduate"
+                  id="PostGraduate"
+                >
+                  <option value="Não possuo">Não possuo</option>
+                  <option value="Em curso / Incompleta">
+                    Em curso / Incompleta
+                  </option>
+                  <option value="Completa">Completa</option>
+                </select>
 
-                  <label for="Phone">Celular:</label>
-                  <input
-                    class="form-input"
-                    name="Phone"
-                    type="tel"
-                    id="Phone"
-                    placeholder="Digite seu celular"
-                    required
-                  />
-
-                  <label class="gradutation-label" for="Graduation"
-                    >Qual a sua formação?</label
+                <label for="message">Mensagem:</label>
+                <textarea
+                  id="message"
+                  name="Message"
+                  placeholder="Escreva sua dúvida"
+                  required
+                ></textarea>
+                <div
+                  class="home_buttons d-flex flex-row align-items-center justify-content-center"
+                >
+                  <button
+                    id="myBtn"
+                    class="button-form button_2 trans_200 ml-2 mr-2"
+                    type="submit"
                   >
-                  <select class="form-select" name="Graduation" id="Graduation">
-                    <option value="Biologia" selected>Biologia</option>
-                    <option value="Biomedicina">Biomedicina</option>
-                    <option value="Enfermagem">Enfermagem</option>
-                    <option value="Farmácia">Farmácia</option>
-                    <option value="Fisioterapia">Fisioterapia</option>
-                    <option value="Medicina">Medicina</option>
-                    <option value="Odontologia">Odontologia</option>
-                    <option value="Outros">Outros</option>
-                  </select>
-
-                  <label class="gradutation-label" for="PostGraduate"
-                    >Possui pós graduação?</label
-                  >
-                  <select
-                    class="form-select"
-                    name="PostGraduate"
-                    id="PostGraduate"
-                  >
-                    <option value="Não possuo">Não possuo</option>
-                    <option value="Em curso / Incompleta">
-                      Em curso / Incompleta
-                    </option>
-                    <option value="Completa">Completa</option>
-                  </select>
-
-                  <label for="message">Mensagem:</label>
-                  <textarea
-                    id="message"
-                    name="Message"
-                    placeholder="Escreva sua dúvida"
-                    required
-                  ></textarea>
-                  <div
-                    class="home_buttons d-flex flex-row align-items-center justify-content-center"
-                  >
-                    <button
-                      id="myBtn"
-                      class="button-form button_2 trans_200 ml-2 mr-2"
-                      type="submit"
-                    >
-                      Enviar Formulário
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <div id="infoModal" class="modal">
-              <div class="modal-content">
-                <span class="close">&times;</span>
-
-                <div class="modal-text">
-                  <h2>Obrigado!</h2>
-                  <p>
-                    Suas informações foram enviadas com sucesso. <br />
-                    Em breve nossa equipe entrará em contato.
-                  </p>
+                    Enviar Formulário
+                  </button>
                 </div>
+              </form>
+            </div>
+          </div>
+          <div id="infoModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
 
-                <img
-                  src="images/animation.svg"
-                  alt="Animação mostrando um processo de carregamento"
-                />/>
+              <div class="modal-text">
+                <h2>Obrigado!</h2>
+                <p>
+                  Suas informações foram enviadas com sucesso. <br />
+                  Em breve nossa equipe entrará em contato.
+                </p>
               </div>
+
+              <img
+                src="images/animation.svg"
+                alt="Animação mostrando um processo de carregamento"
+              />/>
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <!-- Why Choose Us -->
 
     <div class="why">
@@ -528,90 +622,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Agenda -->
-
-    <div class="services">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center">
-            <div class="section_title_container">
-              <div class="section_subtitle"><b>Promover</b> Cursos</div>
-              <div class="section_title">
-                <h2>Nossa Agenda</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <main>
-          <div class="swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide swiper-slide-one">
-                <div class="">
-                  <div class="swiper-slide-action">
-                    <a
-                      href="https://wa.me/5521971422068?text=Gostaria%20de%20garantir%20minha%20vaga%20no%20curso"
-                      target="_blank"
-                      >Garantir Vaga</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          </div>
-
-          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-          <script>
-            var swiper = new Swiper(".swiper", {
-              effect: "coverflow",
-              slideToClickedSlide: true,
-              grabCursor: true,
-              centeredSlides: true,
-              coverflowEffect: {
-                rotate: 0,
-                stretch: 0,
-                depth: 100,
-                modifier: 3,
-                slideShadows: true,
-              },
-              keyboard: {
-                enabled: true,
-              },
-              mousewheel: {
-                thresholdDelta: 70,
-              },
-              loop: false,
-              pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-              },
-              navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-              },
-              breakpoints: {
-                640: {
-                  slidesPerView: 2,
-                },
-                768: {
-                  slidesPerView: 1,
-                },
-                1024: {
-                  slidesPerView: 2,
-                },
-                1560: {
-                  slidesPerView: 2,
-                },
-              },
-            });
-          </script>
-        </main>
       </div>
     </div>
 
