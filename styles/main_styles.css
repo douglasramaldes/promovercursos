@@ -1334,12 +1334,12 @@ main > div > a {
 }
 
 .swiper-slide-one {
-  background: url("../images/calender_dez.png") no-repeat center/90%;
+  background: url("../images/calendar_janeiro.png") no-repeat center/90%;
 }
 
-/* .swiper-slide--two {
-  background: url("../images/calender_dez.png") no-repeat center/90%;
-} */
+.swiper-slide-two {
+  background: url("../images/calendar_febr.png") no-repeat center/90%;
+}
 
 /* .swiper-slide--three {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
