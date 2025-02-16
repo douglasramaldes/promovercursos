@@ -242,16 +242,33 @@ section {
 }
 
 .background_image_bio {
-  background-image: url("../images/BannerBioesthetic.png");
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background_image_bio a {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.background-video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  z-index: -1;
 }
+
+#background-video-mobile {
+  display: none;
+}
+
 
 .nopadding {
   padding: 0px !important;
@@ -1492,9 +1509,11 @@ svg rect {
     opacity: 0.25;
   }
 
-  .background_image_bio {
-    background-image: url("../images/bioesthetic.png");
-    /* height: 98%; */
+  #background-video-desktop {
+    display: none;
+  }
+  #background-video-mobile {
+    display: block;
   }
 }
 
