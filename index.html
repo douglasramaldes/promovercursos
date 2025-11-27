@@ -48,10 +48,6 @@
       href="plugins/OwlCarousel2-2.2.1/animate.css"
     />
     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link
       href="plugins/jquery-datepicker/jquery-ui.css"
       rel="stylesheet"
       type="text/css"
@@ -230,88 +226,15 @@
               <div class="section_title_container">
                 <div class="section_subtitle"><b>Promover</b> Cursos</div>
                 <div class="section_title">
-                  <h2>Nossa Agenda</h2>
+                  <h2>Nosso Catálogo</h2>
                 </div>
               </div>
             </div>
           </div>
           <main>
-            <div class="swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide swiper-slide-one">
-                  <div class="">
-                    <div class="swiper-slide-action">
-                      <!-- <a
-                      href="https://wa.me/5521971422068?text=Gostaria%20de%20garantir%20minha%20vaga%20no%20curso"
-                      target="_blank"
-                      >Garantir Vaga</a
-                    > -->
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide swiper-slide-two">
-                  <div class="">
-                    <div class="swiper-slide-action">
-                      <!-- <a
-                      href="https://wa.me/5521971422068?text=Gostaria%20de%20garantir%20minha%20vaga%20no%20curso"
-                      target="_blank"
-                      >Garantir Vaga</a
-                    > -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Add Pagination -->
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+            <div class="catalog-container">
+              <div class="catalog-image"></div>
             </div>
-
-            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-            <script>
-              var swiper = new Swiper(".swiper", {
-                effect: "coverflow",
-                slideToClickedSlide: true,
-                grabCursor: true,
-                centeredSlides: true,
-                coverflowEffect: {
-                  rotate: 0,
-                  stretch: 0,
-                  depth: 100,
-                  modifier: 3,
-                  slideShadows: true,
-                },
-                keyboard: {
-                  enabled: true,
-                },
-                mousewheel: {
-                  thresholdDelta: 70,
-                },
-                loop: false,
-                pagination: {
-                  el: ".swiper-pagination",
-                  clickable: true,
-                },
-                navigation: {
-                  nextEl: ".swiper-button-next",
-                  prevEl: ".swiper-button-prev",
-                },
-                breakpoints: {
-                  640: {
-                    slidesPerView: 2,
-                  },
-                  768: {
-                    slidesPerView: 1,
-                  },
-                  1024: {
-                    slidesPerView: 2,
-                  },
-                  1560: {
-                    slidesPerView: 2,
-                  },
-                },
-              });
-            </script>
           </main>
         </div>
       </div>

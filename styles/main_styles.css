@@ -659,7 +659,7 @@ section {
   width: 100%;
   background: #ffffff;
   padding-top: 50px;
-  padding-bottom: 90px;
+  /* padding-bottom: 90px; */
 }
 
 .milestones {
@@ -1190,7 +1190,7 @@ main {
   position: relative;
   margin: 0 auto;
   column-gap: 3rem;
-  padding-block: min(20vh, 3rem);
+  /* padding-block: min(20vh, 3rem); */
 }
 
 .bg {
@@ -1265,6 +1265,15 @@ main > div > a {
 
 .swiper {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-pagination-bullet,
@@ -1337,13 +1346,27 @@ main > div > a {
   opacity: 1;
 }
 
-.swiper-slide-one {
-  background: url("../images/calendar_jun.jpg") no-repeat center/75%;
+.catalog-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 2rem 0; */
 }
 
-.swiper-slide-two {
-  background: url("../images/calendar_july.jpg") no-repeat center/75%;
+.catalog-image {
+  background: url("../images/catalogoweb.jpeg") no-repeat center center;
+  background-size: contain;
+  width: 90%;
+  max-width: 90rem;
+  height: 40rem;
+  min-height: 40rem;
+  margin: 0 auto;
 }
+
+/* .swiper-slide-two {
+  background: url("../images/calendar_july.jpg") no-repeat center/75%;
+} */
 
 /* .swiper-slide-three {
   background: url("../images/calendar_march.png") no-repeat center/90%;
@@ -1510,6 +1533,21 @@ svg rect {
     background-repeat: no-repeat;
     background-position: center 1%;
     background-size: cover;
+  }
+
+  .catalog-container {
+    padding: 1rem 0;
+  }
+
+  .catalog-image {
+    background-image: url("../images/catalogomobile.jpeg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 90%;
+    max-width: 25rem;
+    height: 35rem;
+    min-height: 35rem;
   }
 
 }
